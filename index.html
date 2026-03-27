@@ -58,6 +58,14 @@
       justify-content: center;
       font-weight: 700;
       font-size: 28px;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
 
     h1 {
@@ -127,27 +135,30 @@
 <body>
   <main class="card">
     <section class="header">
-      <div class="avatar">ZR</div>
+      <div class="avatar">
+        <img src="./20260327-144120.jpg" alt="刘凯歌头像" />
+      </div>
       <div>
-        <h1>zhongrenjiexing</h1>
-        <p class="subtitle">个人主页 | 技术学习与项目记录</p>
+        <h1>刘凯歌</h1>
+        <p class="subtitle">华中科技大学(HUST) & 上海创智学院(SII)联合培养博士生</p>
       </div>
     </section>
 
     <section class="section">
       <h2>关于我</h2>
       <p>
-        你好，欢迎来到我的 GitHub Pages 个人主页。我关注技术学习、项目实践和持续迭代，
-        会在这里持续更新我的简介与相关链接。这个页面是一个简洁的起点，后续会逐步补充更多内容。
+        你好，欢迎来到我的个人主页。我目前聚焦于具身智能与智能体相关研究，
+        关注从算法到机器人系统落地的完整链路，并持续探索面向真实世界任务的可泛化控制能力。
       </p>
     </section>
 
     <section class="section">
       <h2>技能与方向</h2>
       <ul>
-        <li>编程语言：Python / C++</li>
-        <li>工程工具：Git / Linux / Docker</li>
-        <li>持续方向：算法实践、系统优化与工程落地</li>
+        <li>AI Agent</li>
+        <li>具身智能</li>
+        <li>强化学习</li>
+        <li>人形 / 四足机器人运动控制</li>
       </ul>
     </section>
 
@@ -155,9 +166,9 @@
       <h2>联系方式</h2>
       <p>欢迎交流与合作：</p>
       <div class="contact">
-        <a href="mailto:994585972@qq.com">邮箱</a>
+        <a href="mailto:KaigeLiu@sii.edu.cn">邮箱</a>
         <a href="https://github.com/zhongrenjiexing" target="_blank" rel="noreferrer">GitHub</a>
-        <a href="https://zhongrenjiexing.github.io/" target="_blank" rel="noreferrer">主页地址</a>
+        <a href="https://scholar.google.com/citations?user=AO7mSP4AAAAJ&hl" target="_blank" rel="noreferrer">Google Scholar</a>
       </div>
     </section>
 
