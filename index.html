@@ -103,6 +103,22 @@
       gap: 6px;
     }
 
+    .pub-list {
+      margin: 0;
+      padding-left: 20px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .pub-list li {
+      line-height: 1.7;
+    }
+
+    .pub-meta {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
     .contact {
       display: flex;
       flex-wrap: wrap;
@@ -147,8 +163,7 @@
     <section class="section">
       <h2>关于我</h2>
       <p>
-        你好，欢迎来到我的个人主页。我目前聚焦于具身智能与智能体相关研究，
-        关注从算法到机器人系统落地的完整链路，并持续探索面向真实世界任务的可泛化控制能力。
+        你好，欢迎来到我的个人主页。我目前的研究包括带有性格的可持续学习的具身智能体。已有的四足机器人容错控制、多台四足机器人集群与步态同步控制等。
       </p>
     </section>
 
@@ -169,6 +184,39 @@
         <a href="mailto:KaigeLiu@sii.edu.cn">邮箱</a>
         <a href="https://github.com/zhongrenjiexing" target="_blank" rel="noreferrer">GitHub</a>
         <a href="https://scholar.google.com/citations?user=AO7mSP4AAAAJ&hl" target="_blank" rel="noreferrer">Google Scholar</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Publications</h2>
+      <ol class="pub-list">
+        <li>
+          PEPA: a Persistently Autonomous Embodied Agent with Personalities
+          <div class="pub-meta">K Liu, Y Li, L Zhu, W Zhang | arXiv preprint arXiv:2603.00117, 2026</div>
+        </li>
+        <li>
+          Fault Joint Detection and Adaptive Fault-Tolerant Control of Legged Robots Under Joint Partial Failures
+          <div class="pub-meta">K Liu, Z Wang, B Li, L Zhu, H Ding | IEEE Robotics and Automation Letters, 2025</div>
+        </li>
+        <li>
+          Optimization-based flocking control and MPC-based Gait synchronization control for multiple quadruped robots
+          <div class="pub-meta">K Liu, L Dong, X Tan, W Zhang, L Zhu | IEEE Robotics and Automation Letters 9 (2), 1929-1936, 2024</div>
+        </li>
+        <li>
+          Adaptive fault tolerant tracking control of heterogeneous multi-agent systems with non-cooperative target
+          <div class="pub-meta">L Dong, K Liu, S Du, H Yan, H Shen | Information Sciences 622, 1184-1195, 2023</div>
+        </li>
+        <li>
+          Fully distributed fixed-time control of cross-domain swarm robots for non-cooperative target tracking
+          <div class="pub-meta">L Dong, F Yu, S Du, K Liu | IEEE Transactions on Circuits and Systems II: Express Briefs 70 (7), 2455-2459, 2023</div>
+        </li>
+        <li>
+          Adaptive sliding mode control for uncertain nonlinear multi-agent tracking systems subject to node failures
+          <div class="pub-meta">L Dong, K Liu | Journal of the Franklin Institute 359 (2), 1385-1402, 2022</div>
+        </li>
+      </ol>
+      <div class="contact" style="margin-top: 12px;">
+        <a href="https://scholar.google.com/citations?hl=zh-CN&user=AO7mSP4AAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noreferrer">查看 Scholar 全部列表</a>
       </div>
     </section>
 
